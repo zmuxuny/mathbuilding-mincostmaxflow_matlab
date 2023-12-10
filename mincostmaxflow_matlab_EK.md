@@ -21,7 +21,6 @@ n = size(V, 2);
 flow = 0;
 cost = 0;
 
-wf = 0; wf0 = 10000; % !wf:最大流, wf0:预设的最大流
 f = zeros(n, n); % 初始流量
 
 % 创建图
